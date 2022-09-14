@@ -1,0 +1,97 @@
+body{
+    background: #080808;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+div{
+    box-sizing: border-box;
+}
+header{
+    background: white;
+    padding: 10px;
+}
+header h1{
+    margin: 0;
+    text-align: center;
+}
+h4{
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 16px;
+}
+div.post {
+    background: white;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+    padding-bottom: 20px;
+}
+
+
+div.post .post-header h4{
+    display: inline;
+    padding-top: 15px;
+    float: left;
+    margin: 0;
+}
+
+
+div.post .post-header div:first-child{
+    display: inline;
+    padding: 18px 10px 15px 10px;
+    float: left;
+    text-align: right;
+}
+
+div.post .post-header div:last-child{
+    display: inline;
+    float: right;
+    margin-top: 3px;
+    padding: 15px;
+
+}
+
+div.post img{
+    width: 100%;
+}
+
+div.post .icons{
+    width: 100%;
+}
+
+div.post .icons .icons-left{
+    display: inline;
+    float: left;
+    width: 88%;
+    margin-left: 5px;
+}
+
+div.post .post-header img, div.post .html-5-img img{
+    width: 25px;
+}
+
+
+div.post .icons img{
+    display: inline;
+    float: left;
+    height: 25px;
+    width: 25px;
+    padding: 10px;
+}
+
+div.post h2, div.post p{
+    font-weight: 400;
+    padding: 15px;
+    margin: 0;
+    font-size: 14px;
+}
+div.container{
+    width: 500px;
+    margin: auto;
+}
+
+div .text{
+    display: inline-block;
+    width: 100%;
+}
